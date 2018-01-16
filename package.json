@@ -1,0 +1,28 @@
+{
+  "name": "make-eslint",
+  "version": "1.0.4",
+  "description": "npm package for creating designed eslint rules",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js",
+    "test": "PROD=false mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idandagan1/make-eslint.git"
+  },
+  "keywords": [
+    "make-eslint",
+    "eslint"
+  ],
+  "author": "Idan Dagan <idandagan1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idandagan1/make-eslint/issues"
+  },
+  "homepage": "https://github.com/idandagan1/make-eslint#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "mocha": "^4.1.0"
+  }
+}
